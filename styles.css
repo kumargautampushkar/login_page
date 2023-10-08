@@ -1,0 +1,109 @@
+*{
+    margin : 0px ;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+.hero{
+    height: 100%;
+    width: 100%;
+    background-image: url(./assets/images/deer-Aesthetic-Laptop-Wallpaper-4k.jpg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+/*  */
+
+.form-box{
+    width: 380px;
+    height: 480px;
+    position: relative;
+    margin: 6% auto;
+    background-color: #ffffff;
+    padding: 5px;
+}
+
+.button-box{
+    width: 220px;
+    margin: 36px auto;
+    position: relative;
+    box-shadow: 0 0 20px 9px green;
+    border-radius: 30px;
+}
+
+.toggle-btn{
+    padding: 10px 30px;
+    cursor: pointer;
+    background: transparent;
+    border: 0px;
+    outline: none;
+    position: relative;
+}
+
+.social-icons{
+    /* display: flex; */
+    /* gap: 24px; */
+    margin-top: 24px;
+    height: 36px;
+
+    /* justify-content: center; */
+}
+
+.si{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.social-icons img{
+    height: 100%;
+    margin: 0px 12px;
+}
+
+.form-input{
+    top: 180px;
+    position: absolute;
+    width: 280px;
+    transition: 0.5s;
+}
+.input-field{
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0px;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 0;
+    outline: none;
+    background: transparent;
+}
+
+.submit-btn{
+    width: 85%;
+    display: block;
+    cursor: pointer;
+    margin: auto;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    margin-left:0px;
+    background:linear-gradient(to right,#ff105f,#ffad06);
+    height: 36px;
+    border:0;
+    outline: none;
+    border-radius: 30px;
+}
+
+.check-box{
+    margin: 30px 10px 10px 0px;
+}
+
+
+
+
+
+
+
+
+
+
