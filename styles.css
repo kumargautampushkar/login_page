@@ -3,7 +3,10 @@
     padding: 0px;
     font-family: sans-serif;
 }
-
+::placeholder{
+    opacity: 1;
+    color: black;
+}
 .hero{
     height: 100%;
     width: 100%;
